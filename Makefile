@@ -75,7 +75,7 @@ CWARNS += -Wmissing-prototypes
 
 #CWARNS += -Wno-unused-function
 
-CFLAGS += -m32
+CFLAGS += -m32 #work on 32-bit linux,comment it for 64-bit
 CFLAGS += -DDEBUG=1
 #CFLAGS += -g -DUSE_STDIO=1 -D__GCC_POSIX__=1
 CFLAGS += -g -UUSE_STDIO -D__GCC_POSIX__=1
